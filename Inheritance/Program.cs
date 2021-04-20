@@ -59,6 +59,9 @@ namespace Inheritance
             myAnimals.Add(myBird);
             myAnimals.Add(myLizard);
 
+            Console.WriteLine("I'm excited to introduce you to my two exotic pets! \n" +
+                "We've got:");
+            Console.WriteLine("");
             foreach (var animal in myAnimals)
             {
                 Console.WriteLine($"Name: {animal.Name}");
